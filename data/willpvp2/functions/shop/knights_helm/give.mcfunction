@@ -1,0 +1,3 @@
+attribute @s minecraft:generic.armor modifier add 7d57b1b1-06f1-4d6e-accb-cd7dc9f107f9 knights_helm 4 add
+give @s minecraft:netherite_helmet{display:{color:8991416,Name:"\"Knight's Helm\"",Lore:['"+4 Armour"','"This item is for cosmetic purposes only."','"It does not alter your attributes."']},AttributeModifiers:[{AttributeName:"generic.armor",Amount:0,Operation:0,UUID:[I;-120928,17212,222348,-34424],Slot:head,Name:"generic.armor"}]}
+tellraw @a [{"selector":"@s","color":"red"},{"text":" has a Knight's Helm!"}]

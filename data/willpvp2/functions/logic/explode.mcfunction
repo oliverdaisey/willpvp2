@@ -1,0 +1,1 @@
+summon minecraft:creeper ~ ~ ~ {ignited:1,Invulnerable:1,NoGravity:1,Silent:1,Fuse:0}
