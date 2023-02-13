@@ -17,7 +17,10 @@ execute if entity @s[scores={random=2}] run tellraw @s {"text":"<Shop Keeper> No
 # Remove item tags.
 function willpvp2:shop/clear_item_tags
 
-# Restore money
+# Reset item scoreboard data.
+scoreboard players set @s shop.golden_apples 0
+
+# Restore money.
 scoreboard players set @s money 100
 
 execute if entity @s[tag=plunderbones] run function willpvp2:shop/start_plunderbones
