@@ -8,7 +8,7 @@ schedule function willpvp2:kit/thundercrash/title 40t replace
 title @s times 5 40 60
 title @s title {"text":"Thundercrash", "bold":true, "color":"yellow"}
 title @s subtitle {"text":"Obliteration awaits.","color":"red"}
-playsound minecraft:entity.allay.death master @a ~ ~ ~ 2 0.5
+playsound minecraft:entity.allay.death master @s ~ ~ ~ 2 0.5
 
 item replace entity @s armor.head with minecraft:player_head{display:{Name:"{\"text\":\"Thundercrash\"}"},SkullOwner:{Id:[I;-1443134122,1094404554,-1297843924,-694188020],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZlZTk2Nzk5YzQxNjIyMGU2MGI2YzhlMjc4NDI0YzJiZjk1ZDBkN2M1ODA1Y2JlY2M1MTg4OWY5Njk5YTQwNCJ9fX0="}]}},Enchantments:[{id:binding_curse,lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Amount:2,Operation:0,UUID:[I;-120928,17212,222348,-34424],Slot:head,Name:"generic.armor"}]}
 item replace entity @s armor.chest with minecraft:netherite_chestplate{Unbreakable:1}
