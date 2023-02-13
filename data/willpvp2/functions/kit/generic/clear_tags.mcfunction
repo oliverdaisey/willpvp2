@@ -11,6 +11,7 @@ tag @s remove purgatory_victim
 tag @s remove purgatory_in_realm
 tag @s remove plunderbones
 tag @s remove lost_elytra
+tag @s remove thundercrash
 
 scoreboard players set @s fly_speed 0
 scoreboard players set @s damage_dealt 0

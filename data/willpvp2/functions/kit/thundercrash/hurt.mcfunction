@@ -1,0 +1,1 @@
+playsound minecraft:entity.allay.hurt master @a ~ ~ ~ 2 0.8
